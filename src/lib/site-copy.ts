@@ -282,24 +282,24 @@ export const siteCopy: Record<Language, SiteContent> = {
       ],
     },
     download: {
-      title: "Download links go live when the stores are ready.",
+      title: "Senflix is available on iOS and Android.",
       description:
-        "Everything on this page is ready to go. The store buttons below are placeholders — they'll be swapped for real App Store and Google Play links as soon as they're available.",
+        "Download the app from the App Store or Google Play to start watching.",
       stores: [
         {
-          name: "App Store (coming soon)",
-          note: "The iOS link will appear here once the app is listed.",
-          href: "https://example.com/app-store-placeholder",
+          name: "App Store",
+          note: "Download Senflix for iPhone.",
+          href: "https://apps.apple.com/us/app/senflix/id6759029492",
         },
         {
-          name: "Google Play (coming soon)",
-          note: "The Android link will appear here once the app is listed.",
-          href: "https://example.com/google-play-placeholder",
+          name: "Google Play",
+          note: "Download Senflix for Android.",
+          href: "https://play.google.com/store/apps/details?id=com.nebur242.african.video.platform",
         },
       ],
       footnote:
-        "Real download links will be added here as soon as the app is live on both stores.",
-      readyCta: "Download links coming soon",
+        "The app is available in French and English.",
+      readyCta: "Available now",
     },
     faq: {
       title: "Common questions before launch.",
@@ -318,11 +318,6 @@ export const siteCopy: Record<Language, SiteContent> = {
           question: "Why talk about moderation on a marketing page?",
           answer:
             "Because growth without trust doesn't last. Showing that moderation and support are part of the product is just being honest about how we build.",
-        },
-        {
-          question: "Can the download buttons be updated later?",
-          answer:
-            "Yes. The current links are placeholders on purpose — the real store URLs can be dropped in without changing anything else on the page.",
         },
       ],
     },
@@ -519,24 +514,24 @@ export const siteCopy: Record<Language, SiteContent> = {
     },
     download: {
       title:
-        "Les liens de téléchargement arrivent dès que les stores sont prêts.",
+        "Senflix est disponible sur iOS et Android.",
       description:
-        "Tout est prêt sur cette page. Les boutons ci-dessous sont des liens temporaires — ils seront remplacés par les vrais liens App Store et Google Play dès qu'ils seront disponibles.",
+        "Téléchargez l'app sur l'App Store ou Google Play pour commencer à regarder.",
       stores: [
         {
-          name: "App Store (bientôt)",
-          note: "Le lien iOS apparaîtra ici quand l'app sera publiée.",
-          href: "https://example.com/app-store-placeholder",
+          name: "App Store",
+          note: "Téléchargez Senflix sur iPhone.",
+          href: "https://apps.apple.com/us/app/senflix/id6759029492",
         },
         {
-          name: "Google Play (bientôt)",
-          note: "Le lien Android apparaîtra ici quand l'app sera publiée.",
-          href: "https://example.com/google-play-placeholder",
+          name: "Google Play",
+          note: "Téléchargez Senflix sur Android.",
+          href: "https://play.google.com/store/apps/details?id=com.nebur242.african.video.platform",
         },
       ],
       footnote:
-        "Les vrais liens de téléchargement seront ajoutés ici dès que l'app sera en ligne sur les deux stores.",
-      readyCta: "Liens de téléchargement à venir",
+        "L'app est disponible en français et en anglais.",
+      readyCta: "Disponible maintenant",
     },
     faq: {
       title: "Questions fréquentes avant le lancement.",
@@ -556,12 +551,6 @@ export const siteCopy: Record<Language, SiteContent> = {
           question: "Pourquoi parler de modération sur une page marketing ?",
           answer:
             "Parce que la croissance sans confiance ne dure pas. Montrer que la modération et le support font partie du produit, c'est simplement être honnête sur notre façon de construire.",
-        },
-        {
-          question:
-            "Les boutons de téléchargement pourront-ils être mis à jour plus tard ?",
-          answer:
-            "Oui. Les liens actuels sont des emplacements réservés — les vraies URLs des stores pourront être ajoutées sans rien changer d'autre sur la page.",
         },
       ],
     },

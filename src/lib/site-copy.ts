@@ -5,21 +5,6 @@ export type SiteContent = {
     title: string;
     description: string;
   };
-  launchModal: {
-    badge: string;
-    title: string;
-    description: string;
-    targetLabel: string;
-    closeLabel: string;
-    closedCta: string;
-    completeLabel: string;
-    units: {
-      days: string;
-      hours: string;
-      minutes: string;
-      seconds: string;
-    };
-  };
   nav: {
     product: string;
     creators: string;
@@ -104,22 +89,6 @@ export const siteCopy: Record<Language, SiteContent> = {
       title: "Senflix | Stories That Move",
       description:
         "A video platform made for African creators and their communities. Publish your work, grow your audience, earn from your content, and connect directly with the people who watch.",
-    },
-    launchModal: {
-      badge: "Coming soon",
-      title: "Senflix launches soon.",
-      description:
-        "We're counting down to the public launch. Stick around — we're putting the finishing touches on everything for creators, viewers, and communities.",
-      targetLabel: "Launch target",
-      closeLabel: "Close launch countdown modal",
-      closedCta: "Close",
-      completeLabel: "We're live.",
-      units: {
-        days: "Days",
-        hours: "Hours",
-        minutes: "Minutes",
-        seconds: "Seconds",
-      },
     },
     nav: {
       product: "Platform",
@@ -335,22 +304,6 @@ export const siteCopy: Record<Language, SiteContent> = {
       title: "Senflix | Le meilleur du contenu africain.",
       description:
         "Une plateforme vidéo faite pour les créateurs africains et leurs communautés. Publiez, développez votre audience, monétisez votre travail et créez un lien direct avec votre public.",
-    },
-    launchModal: {
-      badge: "Bientôt disponible",
-      title: "Senflix arrive bientôt.",
-      description:
-        "On approche du lancement public. Restez dans le coin — on met les dernières touches pour les créateurs, les spectateurs et les communautés.",
-      targetLabel: "Date cible",
-      closeLabel: "Fermer la fenêtre du compte à rebours",
-      closedCta: "Fermer",
-      completeLabel: "C'est parti !",
-      units: {
-        days: "Jours",
-        hours: "Heures",
-        minutes: "Minutes",
-        seconds: "Secondes",
-      },
     },
     nav: {
       product: "Plateforme",

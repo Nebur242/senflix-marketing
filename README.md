@@ -15,7 +15,7 @@ Standalone marketing site for African Video Platform.
 - Intentional bilingual landing page with an in-page `EN / FR` toggle
 - `light / dark / system` theme toggle
 - Product, creator, discovery, trust, download, and FAQ sections
-- Placeholder store links that can be swapped for final App Store and Google Play URLs
+- App Store and Google Play download links
 - Lightweight reveal animations for section transitions
 
 ## Run
@@ -48,5 +48,4 @@ vercel deploy --prod
 
 ## Content Notes
 
-- Store buttons currently use explicit placeholder URLs.
-- Final App Store and Google Play links can be dropped in without changing the page structure.
+- Store buttons link to the live App Store and Google Play listings (`download.stores` in `src/lib/site-copy.ts`).

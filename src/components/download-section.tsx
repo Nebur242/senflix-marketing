@@ -3,7 +3,6 @@
 import { ArrowUpRight, Smartphone } from "lucide-react";
 import { useLanguage } from "@/hooks/language-context";
 import { Reveal } from "@/components/reveal";
-import { Button } from "@/components/ui/button";
 
 export function DownloadSection() {
     const { content } = useLanguage();
@@ -46,11 +45,6 @@ export function DownloadSection() {
                                     </div>
                                 </a>
                             ))}
-                            <div>
-                                <Button variant="secondary" size="lg" className="min-h-11 w-full border-white/20 bg-white/10 px-4 text-sm text-white hover:bg-white/14 hover:text-white sm:min-h-12 sm:text-base">
-                                    {content.download.readyCta}
-                                </Button>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -262,7 +262,7 @@ export const legalCopy = {
           title: "Sharing and processors",
           items: [
             "We may share information with hosting, storage, analytics, observability, moderation, and customer support providers that operate on our behalf.",
-            "Payments are handled by third-party processors such as Stripe and other supported payment providers under their own privacy terms.",
+            "Mobile money and card payments are handled by our payment provider Bictorys, which processes payment data under its own privacy terms.",
             "We may disclose information when legally required or when necessary to protect users, rights, and platform integrity.",
             "We do not sell personal information.",
           ],
@@ -530,7 +530,7 @@ export const legalCopy = {
           title: "Partage et sous-traitants",
           items: [
             "Nous pouvons partager des informations avec des prestataires d'hébergement, stockage, analytics, observabilité, modération et support qui agissent pour notre compte.",
-            "Les paiements sont traités par des prestataires tiers comme Stripe et d'autres fournisseurs pris en charge, selon leurs propres politiques de confidentialité.",
+            "Les paiements par mobile money et par carte sont traités par Bictorys, notre prestataire de paiement, qui traite les données de paiement selon sa propre politique de confidentialité.",
             "Nous pouvons divulguer des informations lorsque la loi l'impose ou lorsque cela est nécessaire pour protéger les utilisateurs, les droits et l'intégrité de la plateforme.",
             "Nous ne vendons pas les informations personnelles.",
           ],

@@ -101,7 +101,7 @@ export const siteCopy: Record<Language, SiteContent> = {
     header: {
       languageLabel: "Language",
       themeLabel: "Theme",
-      launchCta: "Launch preview",
+      launchCta: "Download the app",
       openMenuLabel: "Open navigation menu",
       closeMenuLabel: "Close navigation menu",
       closeDrawerLabel: "Close navigation drawer",
@@ -271,7 +271,7 @@ export const siteCopy: Record<Language, SiteContent> = {
       readyCta: "Available now",
     },
     faq: {
-      title: "Common questions before launch.",
+      title: "Common questions.",
       items: [
         {
           question: "Who is this for?",
@@ -316,7 +316,7 @@ export const siteCopy: Record<Language, SiteContent> = {
     header: {
       languageLabel: "Langue",
       themeLabel: "Thème",
-      launchCta: "Voir l'aperçu",
+      launchCta: "Télécharger l'app",
       openMenuLabel: "Ouvrir le menu de navigation",
       closeMenuLabel: "Fermer le menu de navigation",
       closeDrawerLabel: "Fermer le panneau de navigation",
@@ -487,7 +487,7 @@ export const siteCopy: Record<Language, SiteContent> = {
       readyCta: "Disponible maintenant",
     },
     faq: {
-      title: "Questions fréquentes avant le lancement.",
+      title: "Questions fréquentes.",
       items: [
         {
           question: "À qui s'adresse la plateforme ?",

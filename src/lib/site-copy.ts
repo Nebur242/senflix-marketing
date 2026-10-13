@@ -67,7 +67,6 @@ export type SiteContent = {
     description: string;
     stores: Array<{ name: string; note: string; href: string }>;
     footnote: string;
-    readyCta: string;
   };
   faq: {
     title: string;
@@ -268,7 +267,6 @@ export const siteCopy: Record<Language, SiteContent> = {
       ],
       footnote:
         "The app is available in French and English.",
-      readyCta: "Available now",
     },
     faq: {
       title: "Common questions.",
@@ -484,7 +482,6 @@ export const siteCopy: Record<Language, SiteContent> = {
       ],
       footnote:
         "L'app est disponible en français et en anglais.",
-      readyCta: "Disponible maintenant",
     },
     faq: {
       title: "Questions fréquentes.",

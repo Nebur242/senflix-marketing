@@ -1,6 +1,6 @@
-# African Video Platform Marketing
+# Senflix Marketing
 
-Standalone marketing site for African Video Platform.
+Standalone marketing site for Senflix.
 
 ## Stack
 

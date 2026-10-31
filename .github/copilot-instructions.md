@@ -1,6 +1,6 @@
 # General context for GitHub Copilot in this repository
 
-This repository contains the marketing site for the African Video Platform.
+This repository contains the marketing site for Senflix.
 
 ## Primary stack
 

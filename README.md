@@ -1,51 +1,34 @@
-# Senflix Marketing
+# marketing.senflix.app (retired, redirect-only)
 
-Standalone marketing site for Senflix.
+The owner retired marketing.senflix.app on 2026-11-07 (LEGAL-SITE-01).
+All legal texts and the Bictorys return page now live on
+https://www.senflix.app (app-landing repo).
 
-## Stack
+This project stays deployed only so that old links keep working, including
+the `african-video-platform-marketing.vercel.app` alias and app builds that
+still send buyers to `/payments/success`.
 
-- Next.js 16 App Router
-- React 19
-- TypeScript
-- Tailwind CSS v4
-- shadcn-compatible project structure
+Every URL answers 301 to www.senflix.app, with the query string kept:
 
-## Features
+| Old path | New URL |
+| --- | --- |
+| `/payments/success` | `https://www.senflix.app/payments/success` |
+| `/privacy-policy`, `/fr/privacy-policy` | `https://www.senflix.app/confidentialite` |
+| `/en/privacy-policy` | `https://www.senflix.app/privacy` |
+| `/terms`, `/fr/terms` | `https://www.senflix.app/conditions` |
+| `/en/terms` | `https://www.senflix.app/terms` |
+| `/copyright`, `/fr/copyright` | `https://www.senflix.app/droits-auteur` |
+| `/en/copyright` | `https://www.senflix.app/copyright` |
+| `/support`, `/fr/support`, `/contact`, `/fr/contact` | `https://www.senflix.app/support` |
+| `/en/support`, `/en/contact` | `https://www.senflix.app/help` |
+| anything else | `https://www.senflix.app/` |
 
-- Intentional bilingual landing page with an in-page `EN / FR` toggle
-- `light / dark / system` theme toggle
-- Product, creator, discovery, trust, download, and FAQ sections
-- App Store and Google Play download links
-- Lightweight reveal animations for section transitions
-
-## Run
-
-```bash
-npm install
-npm run dev
-```
-
-Open `http://localhost:3000`.
-
-## Quality Checks
+The table lives in `vercel.json`; `next.config.ts` reuses it so that
+`next start` behaves the same locally. Check it with:
 
 ```bash
-npm run lint
-npm run type-check
-npm run build
+npm run build && npx next start --port 3000 &
+node scripts/check-redirects.mjs http://localhost:3000
 ```
 
-## Deployment
-
-Production deployment target is Vercel.
-
-Example flow:
-
-```bash
-vercel link
-vercel deploy --prod
-```
-
-## Content Notes
-
-- Store buttons link to the live App Store and Google Play listings (`download.stores` in `src/lib/site-copy.ts`).
+Do not add pages here. New site work goes to app-landing.

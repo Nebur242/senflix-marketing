@@ -1,5 +1,4 @@
-import { MarketingPage } from "@/components/marketing-page";
-
+// Unreachable: "/" redirects to https://www.senflix.app/ (vercel.json).
 export default function Home() {
-  return <MarketingPage />;
+  return <a href="https://www.senflix.app/">www.senflix.app</a>;
 }

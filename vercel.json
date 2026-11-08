@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/payments/success", "destination": "https://www.senflix.app/payments/success", "statusCode": 301 },
+    { "source": "/privacy-policy", "destination": "https://www.senflix.app/confidentialite", "statusCode": 301 },
+    { "source": "/fr/privacy-policy", "destination": "https://www.senflix.app/confidentialite", "statusCode": 301 },
+    { "source": "/en/privacy-policy", "destination": "https://www.senflix.app/privacy", "statusCode": 301 },
+    { "source": "/terms", "destination": "https://www.senflix.app/conditions", "statusCode": 301 },
+    { "source": "/fr/terms", "destination": "https://www.senflix.app/conditions", "statusCode": 301 },
+    { "source": "/en/terms", "destination": "https://www.senflix.app/terms", "statusCode": 301 },
+    { "source": "/copyright", "destination": "https://www.senflix.app/droits-auteur", "statusCode": 301 },
+    { "source": "/fr/copyright", "destination": "https://www.senflix.app/droits-auteur", "statusCode": 301 },
+    { "source": "/en/copyright", "destination": "https://www.senflix.app/copyright", "statusCode": 301 },
+    { "source": "/support", "destination": "https://www.senflix.app/support", "statusCode": 301 },
+    { "source": "/fr/support", "destination": "https://www.senflix.app/support", "statusCode": 301 },
+    { "source": "/contact", "destination": "https://www.senflix.app/support", "statusCode": 301 },
+    { "source": "/fr/contact", "destination": "https://www.senflix.app/support", "statusCode": 301 },
+    { "source": "/en/support", "destination": "https://www.senflix.app/help", "statusCode": 301 },
+    { "source": "/en/contact", "destination": "https://www.senflix.app/help", "statusCode": 301 },
+    { "source": "/:path*", "destination": "https://www.senflix.app/", "statusCode": 301 }
+  ]
+}

@@ -12,7 +12,7 @@ Every URL answers 301 to www.senflix.app, with the query string kept:
 
 | Old path | New URL |
 | --- | --- |
-| `/payments/success` | `https://www.senflix.app/payments/success` |
+| `/payments/success`, `/payments/success/` | `https://www.senflix.app/payments/success` |
 | `/privacy-policy`, `/fr/privacy-policy` | `https://www.senflix.app/confidentialite` |
 | `/en/privacy-policy` | `https://www.senflix.app/privacy` |
 | `/terms`, `/fr/terms` | `https://www.senflix.app/conditions` |
@@ -29,6 +29,8 @@ The table lives in `vercel.json`; `next.config.ts` reuses it so that
 ```bash
 npm run build && npx next start --port 3000 &
 node scripts/check-redirects.mjs http://localhost:3000
+# or against a Vercel Preview deployment:
+# node scripts/check-redirects.mjs https://<preview-url>
 ```
 
 Do not add pages here. New site work goes to app-landing.

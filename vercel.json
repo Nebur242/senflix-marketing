@@ -17,6 +17,7 @@
     { "source": "/fr/contact", "destination": "https://www.senflix.app/support", "statusCode": 301 },
     { "source": "/en/support", "destination": "https://www.senflix.app/help", "statusCode": 301 },
     { "source": "/en/contact", "destination": "https://www.senflix.app/help", "statusCode": 301 },
+    { "source": "/payments/success/", "destination": "https://www.senflix.app/payments/success", "statusCode": 301 },
     { "source": "/:path*", "destination": "https://www.senflix.app/", "statusCode": 301 }
   ]
 }
